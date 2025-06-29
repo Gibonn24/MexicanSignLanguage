@@ -1,0 +1,25 @@
+# DATASETS
+/dataset/
+/!dataset/samples/**
+
+# ENV
+/venv/
+/__pycache__/
+/*.egg-info/
+/.env
+
+# MODELOS Y SALIDAS
+*.pt
+*.pth
+*.onnx
+*.npy
+*.npz
+*.pkl
+*.log
+
+# NOTEBOOKS
+*.ipynb_checkpoints
+
+# SISTEMA
+.DS_Store
+Thumbs.db
