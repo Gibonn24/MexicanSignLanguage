@@ -15,5 +15,6 @@ for cls_dir in train_root.iterdir():          # p. ej. A/, B/, …
     dest_cls.mkdir(parents=True, exist_ok=True)
     for img in val_samples:
         shutil.move(str(img), dest_cls / img.name)
+        
     print(f"{cls_dir.name}: moved {n_val}/{len(imgs)} to val/")
 print("✓ Validation split listo (15 %)")
