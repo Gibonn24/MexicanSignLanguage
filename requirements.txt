@@ -9,7 +9,7 @@ opencv-python>=4.8.1
 av>=10.0.0           # PyAV, decodificador rápido
 decord>=0.6.0
 ffmpeg-python>=0.2.0
-
+av==12.2.0
 # === Modelos 3D CNN / utilidades ===
 einops>=0.7.0
 tqdm>=4.66.0
