@@ -1,7 +1,7 @@
 # DATASETS
 /data/
 /!dataset/samples/**
-
+/tmp
 # ENV
 /venv/
 /__pycache__/
